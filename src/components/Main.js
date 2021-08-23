@@ -29,11 +29,11 @@ export default function Main() {
   <a href="#" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">MERCH</a>
 </div>
 
-<div className="w3-content" style={{maxWidth:"2000px",marginTop:"46px"}}>
+<div className="w3-content" style={{maxWidth:"2000px"}}>
 
   
   <div className="mySlides w3-display-container w3-center">
-    <img src="/w3images/la.jpg" style="width:100%" />
+    <img src="/w3images/la.jpg" style={{width:"100%"}} />
     <div className="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Los Angeles</h3>
       <p><b>We had the best time playing at Venice Beach!</b></p>   
