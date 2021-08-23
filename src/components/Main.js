@@ -5,7 +5,7 @@ export default function Main() {
         <div>
             <div className="w3-top">
   <div className="w3-bar w3-black w3-card">
-    <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onClick="myFunction()" title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
+    <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onClick="myFunction()" title="Toggle Navigation Menu"><i className="fas fa-bars"></i></a>
     <a href="#" className="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" className="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
     <a href="#tour" className="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
