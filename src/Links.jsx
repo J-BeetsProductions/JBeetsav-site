@@ -3,7 +3,7 @@ import React from "react";
 const Links = () => {
   return (
     <div className="links-small-screen">
-      <div className="link-icon icon-hover">
+      {/* <div className="link-icon icon-hover">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -31,13 +31,13 @@ const Links = () => {
             </g>
           </svg>
         </a>
-      </div>
+      </div> */}
 
       <div className="link-icon icon-hover">
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/profile.php?id=100065432952528"
+          href="https://www.facebook.com/profile.php?id=100068866604163"
         >
           <svg viewBox="0 0 128 128">
             <g id="original">
@@ -61,7 +61,7 @@ const Links = () => {
         </a>
       </div>
 
-      <div className="link-icon icon-hover">
+      {/* <div className="link-icon icon-hover">
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -106,7 +106,7 @@ const Links = () => {
             </g>
           </svg>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
