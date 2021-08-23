@@ -5,20 +5,20 @@ export default function Main() {
         <div>
             <div className="w3-top">
   <div className="w3-bar w3-black w3-card">
-    <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onClick="myFunction()" title="Toggle Navigation Menu"><i className="fas fa-bars"></i></a>
-    <a href="#" className="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript" onClick="myFunction()" title="Toggle Navigation Menu"><i className="fas fa-bars"></i></a>
+    <a href="#s" className="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" className="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
     <a href="#tour" className="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
     <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <div className="w3-dropdown-hover w3-hide-small">
       <button className="w3-padding-large w3-button" title="More">MORE <i className="fas fa-caret-down"></i></button>     
       <div className="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" className="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" className="w3-bar-item w3-button">Extras</a>
-        <a href="#" className="w3-bar-item w3-button">Media</a>
+        <a href="#d" className="w3-bar-item w3-button">Merchandise</a>
+        <a href="#d" className="w3-bar-item w3-button">Extras</a>
+        <a href="#d" className="w3-bar-item w3-button">Media</a>
       </div>
     </div>
-    <a href="javascript:void(0)" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fas fa-search"></i></a>
+    <a href="javascript" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fas fa-search"></i></a>
   </div>
 </div>
 
@@ -26,28 +26,28 @@ export default function Main() {
   <a href="#band" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">BAND</a>
   <a href="#tour" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">TOUR</a>
   <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">CONTACT</a>
-  <a href="#" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">MERCH</a>
+  <a href="#d" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">MERCH</a>
 </div>
 
 <div className="w3-content" style={{maxWidth:"2000px"}}>
 
   
   <div className="mySlides w3-display-container w3-center">
-    <img src="/w3images/la.jpg" style={{width:"100%"}} />
+    <img src="/w3images/la.jpg" alt="look" style={{width:"100%"}} />
     <div className="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Los Angeles</h3>
       <p><b>We had the best time playing at Venice Beach!</b></p>   
     </div>
   </div>
   <div className="mySlides w3-display-container w3-center">
-    <img src="/w3images/ny.jpg" style={{width:"100%"}} />
+    <img src="/w3images/ny.jpg" alt="look" style={{width:"100%"}} />
     <div className="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>New York</h3>
       <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
     </div>
   </div>
   <div className="mySlides w3-display-container w3-center">
-    <img src="/w3images/chicago.jpg" style={{width:"100%"}} />
+    <img src="/w3images/chicago.jpg" alt="look" style={{width:"100%"}} />
     <div className="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Chicago</h3>
       <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
@@ -134,7 +134,7 @@ export default function Main() {
         <input className="w3-input w3-border" type="text" placeholder="Enter email" />
         <button className="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i className="fa fa-check"></i></button>
         <button className="w3-button w3-red w3-section" onClick="document.getElementById('ticketModal').style.display='none'">Close <i className="fa fa-remove"></i></button>
-        <p className="w3-right">Need <a href="#" className="w3-text-blue">help?</a></p>
+        <p className="w3-right">Need <a href="#d" className="w3-text-blue">help?</a></p>
       </div>
     </div>
   </div>
@@ -168,7 +168,7 @@ export default function Main() {
 </div>
 
 
-<img src="/w3images/map.jpg" className="w3-image w3-greyscale-min" style={{ width:"100%" }} /> 
+<img src="/w3images/map.jpg" alt="look" className="w3-image w3-greyscale-min" style={{ width:"100%" }} /> 
 
 <footer className="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
   <i className="fas fa-facebook-official w3-hover-opacity"></i>
@@ -177,7 +177,8 @@ export default function Main() {
   <i className="fas fa-pinterest-p w3-hover-opacity"></i>
   <i className="fas fa-twitter w3-hover-opacity"></i>
   <i className="fas fa-linkedin w3-hover-opacity"></i>
-  <p className="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p className="w3-medium">Powered by 
+  <a href="https://www.w3schools.com/w3css/default.asp" rel="noreferrer" target="_blank">w3.css</a></p>
 </footer>
 
         </div>
