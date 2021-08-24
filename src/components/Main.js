@@ -6,33 +6,35 @@ export default function Main() {
             <div className="w3-top">
   <div className="w3-bar w3-black w3-card">
     <a className="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript" onClick="myFunction()" title="Toggle Navigation Menu"><i className="fas fa-bars"></i></a>
-    <a href="#s" className="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" className="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-    <a href="#tour" className="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-    <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    {/* <a href="#s" className="w3-bar-item w3-button w3-padding-large">HOME</a> */}
+    <a href="#band" className="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <a href="#tour" className="w3-bar-item w3-button w3-padding-large w3-hide-small">Certifacations</a>
+    <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
     <div className="w3-dropdown-hover w3-hide-small">
-      <button className="w3-padding-large w3-button" title="More">MORE <i className="fas fa-caret-down"></i></button>     
+
+        {/* drop down links */}
+      {/* <button className="w3-padding-large w3-button" title="More">MORE <i className="fas fa-caret-down"></i></button>     
       <div className="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#d" className="w3-bar-item w3-button">Merchandise</a>
         <a href="#d" className="w3-bar-item w3-button">Extras</a>
         <a href="#d" className="w3-bar-item w3-button">Media</a>
-      </div>
+      </div> */}
     </div>
-    <a href="javascript" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fas fa-search"></i></a>
+    {/* <a href="javascript" className="w3-padding-large w3-hover-red w3-hide-small w3-right"><i className="fas fa-search"></i></a> */}
   </div>
 </div>
 
     <div id="navDemo" className="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style={{marginTop:"46px"}}>
-  <a href="#band" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">BAND</a>
-  <a href="#tour" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">TOUR</a>
-  <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">CONTACT</a>
-  <a href="#d" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">MERCH</a>
+  <a href="#band" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">About</a>
+  <a href="#tour" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">Certifacations</a>
+  <a href="#contact" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">Contact</a>
+  {/* <a href="#d" className="w3-bar-item w3-button w3-padding-large" onClick="myFunction()">MERCH</a> */}
 </div>
 
 <div className="w3-content" style={{maxWidth:"2000px"}}>
 
-  
-  <div className="mySlides w3-display-container w3-center">
+  {/* slide show for image / caracel */}
+  {/* <div className="mySlides w3-display-container w3-center">
     <img src="/w3images/la.jpg" alt="look" style={{width:"100%"}} />
     <div className="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <h3>Los Angeles</h3>
@@ -52,14 +54,18 @@ export default function Main() {
       <h3>Chicago</h3>
       <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
     </div>
-  </div>
+  </div> */}
 
   <div className="w3-container w3-content w3-center w3-padding-64" style={{maxWidth:"800px"}} id="band">
-    <h2 className="w3-wide">THE BAND</h2>
-    <p className="w3-opacity"><i>We love music</i></p>
-    <p className="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    <h2 className="w3-wide">About</h2>
+    <p className="w3-opacity"><i>theres not a lot to say</i></p>
+    <p className="w3-justify">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
       ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    
+    {/* the section below the intro to the about section */}
     <div className="w3-row w3-padding-32">
       <div className="w3-third">
         <p>Name</p>
@@ -79,14 +85,16 @@ export default function Main() {
   
   <div className="w3-black" id="tour">
     <div className="w3-container w3-content w3-padding-64" style={{maxWidth:"800px"}}>
-      <h2 className="w3-wide w3-center">TOUR DATES</h2>
+      <h2 className="w3-wide w3-center">Certifacations</h2>
+
+      {/* cant think of something to say here yet */}
       <p className="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br />
 
-      <ul className="w3-ul w3-border w3-white w3-text-grey">
+      {/* <ul className="w3-ul w3-border w3-white w3-text-grey">
         <li className="w3-padding">September <span className="w3-tag w3-red w3-margin-left">Sold out</span></li>
         <li className="w3-padding">October <span className="w3-tag w3-red w3-margin-left">Sold out</span></li>
         <li className="w3-padding">November <span className="w3-badge w3-right w3-margin-right">3</span></li>
-      </ul>
+      </ul> */}
 
       <div className="w3-row-padding w3-padding-32" style={{margin:"0 -16px"}}>
         <div className="w3-third w3-margin-bottom">
@@ -140,13 +148,13 @@ export default function Main() {
   </div>
 
   <div className="w3-container w3-content w3-padding-64" style={{maxWidth:"800px"}} id="contact">
-    <h2 className="w3-wide w3-center">CONTACT</h2>
+    <h2 className="w3-wide w3-center">Contact</h2>
     <p className="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
     <div className="w3-row w3-padding-32">
       <div className="w3-col m6 w3-large w3-margin-bottom">
-        <i className="fas fa-map-marker" style={{width:"30px"}}></i> Chicago, US<br />
-        <i className="fas fa-phone" style={{width:"30px"}}></i> Phone: +00 151515<br />
-        <i className="fas fa-envelope" style={{width:"30px"}}> </i> Email: mail@mail.com<br />
+        <i className="fas fa-map-marker" style={{width:"30px"}}></i> Arizona, US<br />
+        <i className="fas fa-phone" style={{width:"30px"}}></i> Phone: +1(520)-252-5262<br />
+        <i className="fas fa-envelope" style={{width:"30px"}}> </i> Email: beetsj21@gmail.com<br />
       </div>
       <div className="w3-col m6">
         <form action="/action_page.php" target="_blank">
